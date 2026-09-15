@@ -59,6 +59,7 @@ main{background:var(--cream)}.section{padding:16px 0}.section>.article-shell{bac
 /* Правки 14 сентября: ширина и расположение по референсу. */
 .shell,.article-shell,.wide-shell{width:min(calc(100% - 40px),920px)}
 .hero-photo img{aspect-ratio:3/2;object-fit:contain}.hero-photo{margin:26px 0 0}
+@media(min-width:761px){.hero__grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}.hero__grid .hero-photo{margin:0}}
 #program-audience{padding-top:28px;padding-bottom:16px}
 .program-audience__grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
 .program-audience__grid>div{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:26px 30px}
